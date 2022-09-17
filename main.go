@@ -17,5 +17,11 @@ func main() {
 	// Using new function
 	b := goo.NewString("aBc")
 	b = b.ToUpper()
-	fmt.Println(b) // Print ABC
+	fmt.Println(b) // Prints ABC
+
+	c := b.ToString()
+	fmt.Println(c) // Prints ABC
+
+	d := b.ToLower()
+	fmt.Println(d) // Prints abc
 }
