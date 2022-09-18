@@ -27,6 +27,10 @@ func main() {
 	d := b.ToLower()
 	fmt.Println(d) // Prints abc
 
+	// Get length
+	e := goo.FromString("thisismystring")
+	fmt.Println(e.Length()) // Prints 14
+
 	// ##### Integer
 	i1 := goo.FromInt32(123)
 	fmt.Println(i1) // Prints 123
